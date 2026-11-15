@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Variante «maskable»: fondo a sangre y dibujo dentro de la zona segura (80 %). -->
+  <rect width="512" height="512" fill="#1f4b38"/>
+  <g transform="translate(76.8 76.8) scale(0.7)">
+    <path d="M112 168a24 24 0 0 1 24-24h88l32 32h120a24 24 0 0 1 24 24v152a24 24 0 0 1-24 24H136a24 24 0 0 1-24-24z" fill="#f4f1e8"/>
+    <path d="M112 216h288" stroke="#1f4b38" stroke-width="16"/>
+    <path d="M160 272h120M160 312h184" stroke="#1f4b38" stroke-width="16" stroke-linecap="round" opacity="0.55"/>
+  </g>
+</svg>

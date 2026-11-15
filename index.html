@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Sin red (CLAUDE.md, regla 5). font-src admite data: solo para las fuentes incrustadas en el propio .docx
+         que dibuja la vista previa del editor (ADR 0008); no hay fuentes ni recursos remotos. -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self' http://localhost:11434 http://127.0.0.1:11434; font-src 'self' data:; object-src 'none'; base-uri 'none'"
+    />
+    <title>SIAD Modelos</title>
+    <script type="module" crossorigin src="./assets/index-DRjBcd7d.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/rolldown-runtime-pP25SEvz.js">
+    <link rel="modulepreload" crossorigin href="./assets/react-B32bllaR.js">
+    <link rel="modulepreload" crossorigin href="./assets/docx-CVW7yf3o.js">
+    <link rel="stylesheet" crossorigin href="./assets/index-CzH7NJFO.css">
+  <link rel="manifest" href="./manifest.webmanifest"></head>
+  <body>
+    <div id="raiz"></div>
+  </body>
+</html>
